@@ -30,7 +30,9 @@ a {
 }
 
 h2,
-h3 {
+h3,
+h4,
+p {
     padding: 0;
     margin: 0;
 }
@@ -418,7 +420,7 @@ body {
     height: 120px;
     width: 100%;
     border-radius: 100%;
-    background-color:#fafafa;
+    background-color: #fafafa;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -426,20 +428,109 @@ body {
 
 .pc_sec_2 .sec_2_memu_wrap a:hover .img_box {
     background-color: #ffde33;
-    box-shadow: 0 3px 23px -3px rgba(0,0,0,0.2);
+    box-shadow: 0 3px 23px -3px rgba(0, 0, 0, 0.2);
 }
 
 .pc_sec_2 .sec_2_memu_wrap a .img_box img {
-    width : 64px;
+    width: 64px;
 }
-
-.pc_sec_2 .sec_2_memu_wrap a .sec_2_ico_txt{
-}
-
 
 /* PC 섹션2 끝 */
 
+/* PC 섹션3 시작 */
 
+
+/* 타이틀 */
+.pc_sec_3 {
+    margin-top: 70px;
+}
+
+.pc_sec_3 .title_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pc_sec_3 .title_box .pc_help_box {
+    width: 240px;
+    height: 60px;
+}
+
+.pc_sec_3 .title_box .pc_help_box .help {
+    display: flex;
+    align-items: center;
+    background-color: #ffde33;
+    padding: 12px 60px 12px 24px;
+    position: relative;
+    border-radius: 30px;
+}
+
+.pc_sec_3 .title_box .pc_help_box .help .help_txt_box {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.pc_sec_3 .title_box .pc_help_box .help .help_txt_box p {
+    font-size: 13px;
+}
+
+.pc_sec_3 .title_box .pc_help_box .help .help_txt_box span {
+    font-size: 11px;
+    color: #666;
+}
+
+.pc_sec_3 .title_box .pc_help_box .help .help_img_box {
+    width: 80px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* 박스4 */
+
+.pc_sec_3 .sec_3_menu_box {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.pc_sec_3 .sec_3_menu_box>li>a {
+    width: 285px;
+    height: 280px;
+    border-radius: 16px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.pc_sec_3 .sec_3_menu_box>li:nth-child(1)>a {
+    background-color: #D9FBF7;
+}
+
+.pc_sec_3 .sec_3_menu_box>li:nth-child(2)>a {
+    background-color: #FFEAEC;
+}
+
+.pc_sec_3 .sec_3_menu_box>li:nth-child(3)>a {
+    background-color: #FFF8D0;
+}
+
+.pc_sec_3 .sec_3_menu_box>li:nth-child(4)>a {
+    background-color: #E8F1FF;
+}
+
+.pc_sec_3 .sec_3_menu_box>li>a>h4 {
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+
+.pc_sec_3 .sec_3_menu_box>li>a>span {
+    font-size: 15px;
+    color: #666;
+}
+
+
+/* PC 섹션3 끝 */
 
 .make_scroll {
     width: 10px;
