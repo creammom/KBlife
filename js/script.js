@@ -11,14 +11,13 @@ $(function () {
 });
 
 
-// 스와이퍼
+// 섹션1 - 스와이퍼
 
 const swiper = new Swiper(".mySwiper", {
   autoplay: {
     delay: 3000,
     disableOnInteraction: false,
   },
-  loop: true,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,

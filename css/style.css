@@ -29,7 +29,8 @@ a {
     margin: 0;
 }
 
-h2 {
+h2,
+h3 {
     padding: 0;
     margin: 0;
 }
@@ -65,6 +66,12 @@ body {
 
 .f-16 {
     font-size: 16px;
+}
+
+.pc_sec_title>h3 {
+    color: #111;
+    font-size: 29px;
+    margin: 16px 0 30px;
 }
 
 /* 커스텀 */
@@ -226,7 +233,7 @@ body {
     padding: 10px 0 18px;
 }
 
-  .slogan h2 {
+.slogan h2 {
     font-weight: 500;
     font-size: 27px;
 }
@@ -383,6 +390,54 @@ body {
 
 
 /* PC 섹션1 끝 */
+
+/* PC 섹션2 시작 */
+
+.pc_sec_2 {
+    margin-top: 50px;
+}
+
+.pc_sec_2 .sec_2_memu_wrap ul {
+    display: flex;
+    justify-content: space-between;
+    width: 1080px;
+    margin-inline: auto;
+}
+
+.pc_sec_2 .sec_2_memu_wrap a {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 500;
+    gap: 10px;
+}
+
+.pc_sec_2 .sec_2_memu_wrap a .img_box {
+    height: 120px;
+    width: 100%;
+    border-radius: 100%;
+    background-color:#fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pc_sec_2 .sec_2_memu_wrap a:hover .img_box {
+    background-color: #ffde33;
+    box-shadow: 0 3px 23px -3px rgba(0,0,0,0.2);
+}
+
+.pc_sec_2 .sec_2_memu_wrap a .img_box img {
+    width : 64px;
+}
+
+.pc_sec_2 .sec_2_memu_wrap a .sec_2_ico_txt{
+}
+
+
+/* PC 섹션2 끝 */
 
 
 
