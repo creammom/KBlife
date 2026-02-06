@@ -495,6 +495,10 @@ body {
     justify-content: space-between;
 }
 
+.pc_sec_3 .sec_3_menu_box>li {
+    position: relative;
+}
+
 .pc_sec_3 .sec_3_menu_box>li>a {
     width: 285px;
     height: 280px;
@@ -527,6 +531,14 @@ body {
 .pc_sec_3 .sec_3_menu_box>li>a>span {
     font-size: 15px;
     color: #666;
+}
+
+.pc_sec_3 .sec_3_menu_box>li > .lottie {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    right: 0;
+    bottom: -10px;
 }
 
 
